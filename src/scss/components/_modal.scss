@@ -1,0 +1,78 @@
+
+.modal-content {
+  overflow: hidden;
+}
+.modal-full {
+  .modal-content {
+    background-color: $gray-100;
+    position: relative;
+  }
+
+  .modal-close {
+    cursor: pointer;
+    position: absolute;
+    top: 24px !important;
+    right: 24px !important;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+
+  .modal-body {
+    padding: 0;
+  }
+}
+
+.modal-prompt {
+    width: 540px;
+    @include media-breakpoint-down('md') {
+      width: auto;
+    }
+    .modal-content {
+      background-color: $gray-100;
+      position: relative;
+    }
+  
+    .modal-close {
+      cursor: pointer;
+      position: absolute;
+      top: 15px !important;
+      right: 15px !important;
+      width: 24px;
+      height: 24px;
+    }
+    h3 {
+        margin-bottom: 0.5em;
+    }
+    .close {
+      font-size: 40px;
+    }
+    .modal-body {
+        padding: 2em;
+    }
+}
+.modal {
+  overflow-y: auto;
+  top: 100px;
+}
+.modal-add-space, .modal-rename-space {
+  max-width: 650px;
+  .modal-content {
+    background-color: $gray-100;
+    position: relative;
+  }
+
+  .modal-close {
+    cursor: pointer;
+    position: absolute;
+    top: 24px !important;
+    right: 24px !important;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+
+  .modal-body {
+
+  }
+}

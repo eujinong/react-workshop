@@ -1,0 +1,21 @@
+.information-pane {
+  padding: 0 20px;
+  height: 100%;
+  background-color: $gray-200;
+}
+
+.spaces-work {
+  position: relative;
+  background: $gray-500;
+  border-radius: 5px;
+  .action-buttons {
+    width: 90px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+}
+
+.action-bar {
+  margin-bottom: 30px;
+}

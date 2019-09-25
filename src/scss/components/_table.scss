@@ -1,0 +1,26 @@
+.table {
+  margin-bottom: 30px;
+  thead {
+    tr {
+      th {
+        white-space: nowrap;
+      }
+    }
+  }
+  tbody {
+    tr {
+      cursor: pointer;
+    }
+  }
+}
+
+.table-bordered {
+  td, th {
+    border: 1px solid $gray-500;
+  }
+}
+
+.table-responsive {
+  height: 100%;
+  background-color: $gray-200;
+}
